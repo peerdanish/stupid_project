@@ -1,0 +1,75 @@
+/*background styling*/
+
+body{
+	background: #0E424E;
+	background-image: url("../assets/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+	height: 1000px
+	color: white;
+	background: rgba(0, 0, 0,0.5);
+	box-shadow: 5px 5px 5px black,-5px 5px 5px black;
+	5px 5px 5px black
+	font-family: 'ubuntu',sans-serif;
+}
+.top_imgs{
+	width: 20%;
+	height: 20%;
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.mid_imgs{
+	width: 20%;
+	height: 20%;
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.tim, .stephen, .jane, .alan{
+	display: inline-block;
+	margin-left: 100px;
+	text-align: center;
+}
+.elon,.albert,.galileo,.isaac{
+	display: inline-block;
+	margin-left: 110px;
+}
+.albert,.galileo,.isaac,.elon,.tim,.jane,.stephen,.alan{
+	position: relative;
+	left: -20px;
+}
+.stephen{
+	position: relative;
+	left: -30px;
+}
+.alan{
+	position: relative;
+	left: -10px;
+}
+.jane{
+	position: relative;
+	left: -10px;	
+}
+.mid_imgs,.top_imgs{
+	outline: none;
+}
+a{
+	color: grey;
+}
+.footer_email{
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	outline: none;
+}
+.subscribe{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	outline: none;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timelines| About</title>
+	<link rel="icon" type="img/png" href="../assets/logos/title_logo.png">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/animate.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/about.css">
+	<link href="https://fonts.googleapis.com/css?family=Kristi" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Seaweed+Script" rel="stylesheet">
+</head>
+<body>
+	<header>
+	<div class="wrapper">
+		<a href="../index.html"><img src="../assets/logos/logo.png" class="logo" alt="logo"></a>
+			<nav>
+			   	<ul>
+			    	<li><a href="../index.html">Home</a></li>
+			    	<li><a href="browse.html">Browse</a></li>
+			    	<li><a href="contact.html">Contact us</a></li>
+			    	<li><a href="about.html">About</a></li>
+			    </ul>
+			</nav>
+	</div>
+</header>
+<!-- ----------------- -->
+<div class="about">
+	<h1>-Welcome-</h1>
+	<h3 class="pupose">-Pupose of this website-</h3>
+	<p id="about_text">Purpose of this website is to summarize the life of famous persons.We continuously endeavour to provide error free information to our readers. However, if you find any error, mistake or want to suggest something, you can write to us to help us improve the quality of this site.<br><span id="thanks">ThankYou</span></p>
+</div>
+<div id="googleMap"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(34.1990498,74.34994959999995),
+    zoom:15,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPaNn-F6N6_9GypRF7Au8A-OutAZIpylY&callback=myMap"></script>
+  <footer>
+	   	<span class="subscription">
+	   	<label for="footer_email" class="label">Enter your email to recieve daily updates.</label>
+	   	<input type="email" name="footer_email" class="footer_email" placeholder="Email">
+	   	<button class="subscribe">Subscribe</button>
+	   	</span>
+	   	<a href="#"><img src="../assets/logos/facebook.png" class="footer_logo"></a>
+	   	<a href="#"><img src="../assets/logos/twitter.png" class="footer_logo"></a>
+	   	<a href="#"><img src="../assets/logos/google.png" class="footer_logo"></a>
+	     	<p class="join">Join us on :</p>
+	     	<div class="foot_nav">
+	     		<ul>
+	     			<a href="index.html"><li>Home | </li>
+	     			<a href="html/request.html"><li>Request | </li></a>
+	     			<a href="html/about.html"><li>About | </li></a>
+	     			<a href="html/contact.html"><li>Contact us</li></a>
+	     		</ul>
+	     	</div>
+	 <div class="foot_div">
+	 	<p>&copy Timelines | 2018</p>
+     </div>
+   </footer>
+</body>
+</html>

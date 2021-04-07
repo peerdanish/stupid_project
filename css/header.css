@@ -1,0 +1,144 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+/*Center the navbar*/
+.wrapper{
+	width: 80%;
+	margin: 0 auto; 
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 600;
+}
+.logo{
+	height: 40px;
+	padding: 10px 0;
+}
+header{
+	background: #447884;
+}
+nav{
+	float: right;
+}
+.wrapper::after{
+	content: '';
+	display: table;
+	clear:both;
+}
+nav ul{
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 20px;
+	position: relative;
+
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	width: 100px;
+	text-align: center;
+}
+nav a:hover{
+	color: lightblue;
+}
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+	background: lightblue;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	width: 0;
+	transition: all ease-in-out 200ms;
+}
+nav a:hover::before{
+	width: 100%;
+}
+header ul li:active { 
+    background-color: #01191F;
+}
+footer{
+	color: white;
+	width: 100%;
+	background: #0E424E;
+	height: 100px;
+	box-shadow: 5px -5px 5px black;
+	position: relative;
+	top: 20px;
+	font-family: 'helvetica',sans-serif;
+}
+.footer_text{
+	font-size: 50px;
+}
+.footer_email{
+	position: relative;
+	padding: 10px;
+	width: 15%;
+	top: 20px;
+	left: -280px;
+}
+.subscribe{
+	padding: 10px;
+	position: relative;
+	left: -290px;
+	top: 20px;
+	background-color: black;
+	color: grey;
+}
+.footer_logo{
+	width: 30px;
+	height: 30px;
+	margin-left: 30px;
+	position: relative;
+	left: 600px;
+	top: 40px;
+}
+label.label{
+	position: relative;
+	top: -10px;
+	left: 20px;
+}
+.join{
+	position: relative;
+	right: -1200px;
+	top: -40px;
+	color: white;
+	font-size: 25px;
+}
+.foot_div{
+	height: 30px;
+	background: black;
+	position: relative;
+	top: 5px;
+	text-align: center;
+}
+.foot_nav ul li{
+	display: inline;
+	margin-left: 10px;
+	position: relative;
+	left: 625px;
+	top: -30px;
+	list-style: none;
+}
+.foot_nav ul a{
+	color: grey;
+	text-decoration: none;
+}
+.top_foot{
+	top: -100px;
+}
+footer{
+	margin-top: 14px;
+}
+.label{
+	color: white;
+	text-decoration: none;
+}

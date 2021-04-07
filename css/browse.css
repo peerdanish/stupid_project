@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: white;
+	background: rgba(0,0,0,0.3);
+}
+.card1,.card2,.card3,.card4,.card5,.card6{
+	width: 60%;
+	margin: 0 auto;
+	height: 100px;
+	box-shadow: 0 0 0;
+	background: white;
+	margin-top: 15px;
+	box-shadow: 3px 5px 8px black;
+	display: block;
+}
+.asset{
+	float: right;
+	width: 14%;
+	height: 100%;
+}
+.all_cards a{
+	text-decoration: none;
+	color: black;
+}
+.bio_text{
+	color: grey;
+}
+div.page_nos ol li{
+	background: rgba(0,0,0,0.7);
+	padding: 10px;
+	display: inline-block;
+	transform: translate(600px,20px);
+	margin-left: 20px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+div.page_nos ol li a{
+	color: white;
+}
+.footer_email{
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	outline: none;
+}
+.subscribe{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	outline: none;
+}

@@ -1,0 +1,64 @@
+
+img.top_imgs,img.mid_imgs{
+	border-radius: 500px;
+	transition: all ease-in-out 300ms;
+	position: relative;
+}
+img.mid_imgs:hover{
+	bottom:5px;
+	border-radius: 0px;
+	box-shadow: 2px 2px 5px rgba(255,255,255,0.5),-2px -2px 10px rgba(255,255,255,0.5);
+	transform: scale(1.1);
+}
+img.top_imgs:hover{
+	bottom:5px;
+	box-shadow: 2px 2px 5px rgba(255,255,255,0.5),-2px -2px 10px rgba(255,255,255,0.5);
+	border-radius: 0px;
+	transform: scale(1.1);
+}
+.common:hover{
+	transition: all ease-in-out 300ms;
+	color: white;
+}
+.footer_logo:hover{
+	transition: all ease-in-out 200ms;
+	transform: scale3d(1.4,1.5,1.7);
+}
+.foot_nav a:hover{
+	transition: all ease-in-out 150ms;
+	color: white;
+}
+div.page_nos li:hover{
+	background:black;
+}
+.card1:hover{
+	transition: all ease-in-out 200ms;
+	transform: scale(1.2);
+	box-shadow: 3px 5px 8px rgba(0,0,0,0.6),-3px 5px 8px rgba(0,0,0,0.6);
+}
+.card2:hover{
+	transition: all ease-in-out 200ms;
+	transform: scale(1.2);
+	box-shadow: 3px 5px 8px rgba(0,0,0,0.6),-3px 5px 8px rgba(0,0,0,0.6);
+}
+.card3:hover{
+	transition: all ease-in-out 200ms;
+	transform: scale(1.2);
+	box-shadow: 3px 5px 8px rgba(0,0,0,0.6),-3px 5px 8px rgba(0,0,0,0.6);
+}
+
+.card4:hover{
+	transition: all ease-in-out 200ms;
+	transform: scale(1.2);
+	box-shadow: 3px 5px 8px rgba(0,0,0,0.6),-3px 5px 8px rgba(0,0,0,0.6);
+}
+.card5:hover{
+	transition: all ease-in-out 200ms;
+	transform: scale(1.2);
+	box-shadow: 3px 5px 8px rgba(0,0,0,0.6),-3px 5px 8px rgba(0,0,0,0.6);
+}
+.card6:hover{
+	transition: all ease-in-out 200ms;
+	transform: scale(1.2);
+	box-shadow: 3px 5px 8px rgba(0,0,0,0.6),-3px 5px 8px rgba(0,0,0,0.6);
+}

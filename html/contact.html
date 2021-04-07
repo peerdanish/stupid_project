@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timelines| Contact Us</title>
+	<link rel="icon" type="img/png" href="../assets/logos/title_logo.png">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
+	<link rel="stylesheet" type="text/css" href="../css/animate.css">
+</head>
+<body>
+	<header>
+	<div class="wrapper">
+		<a href="../index.html"><img src="../assets/logos/logo.png" class="logo" alt="logo"></a>
+			<nav>
+			   	<ul>
+			    	<li><a href="../index.html">Home</a></li>
+			    	<li><a href="browse.html">Browse</a></li>
+			    	<li><a href="contact.html">Contact us</a></li>
+			    	<li><a href="about.html">About</a></li>
+			    </ul>
+			</nav>
+	</div>
+</header>
+<form id="contact_form" method="post" action="../php/save.php">
+	<label for="name">Name: </label><br><br>
+	<input type="text" name="name" placeholder="Enter your full name" id="name" required><br><br>
+	<label for="email">Email: </label><br><br>
+	<input type="email" name="email" placeholder="Enter your email address" id="email" required><br><br>
+	<label for="select">Reason for contact:</label><br><br>
+	<select id="select" required name="reason">
+		<option value="">Select Reason</option>
+		<option value="spelling_mistake">spelling mistake</option>
+		<option value="offensive">Offensive Content</option>
+		<option value="suggestions">Suggestions</option>
+		<option>Others</option>
+	</select><br><br>
+	<label for="message">Message: </label><br><br>
+	<textarea placeholder="Enter your message here"  name="message" ></textarea><br><br>
+	<input type="submit" name="subBtn" value="Submit">
+	<button>Reset Form</button>
+</form>
+<!-- ------------------ -->
+ <footer>
+	   	<span class="subscription">
+	   	<label for="footer_email" class="label">Enter your email to recieve daily updates.</label>
+	   	<input type="email" name="footer_email" class="footer_email" placeholder="Email">
+	   	<button class="subscribe" onclick="dothis()">Subscribe</button>
+	   	</span>
+	   	<a href="#"><img src="../assets/logos/facebook.png" class="footer_logo"></a>
+	   	<a href="#"><img src="../assets/logos/twitter.png" class="footer_logo"></a>
+	   	<a href="#"><img src="../assets/logos/google.png" class="footer_logo"></a>
+	     	<p class="join">Join us on :</p>
+	     	<div class="foot_nav">
+	     		<ul>
+	     			<a href="index.html"><li>Home | </li>
+	     			<a href="html/request.html"><li>Request | </li></a>
+	     			<a href="html/about.html"><li>About | </li></a>
+	     			<a href="html/contact.html"><li>Contact us</li></a>
+	     		</ul>
+	     	</div>
+	 <div class="foot_div">
+	 	<p>&copy Timelines | 2018</p>
+     </div>
+   </footer>
+</body>
+</html>
